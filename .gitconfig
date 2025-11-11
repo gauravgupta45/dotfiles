@@ -1,0 +1,24 @@
+[user]
+        email = gaurav.gupta@gmail.com
+        name = Gaurav Gupta
+[sendemail]
+        smtpserver = smtp-mail.outlook.com
+        smtpserverport = 587
+        smtpencryption = tls
+        smtpuser = gaurav.gupta@gmail.com
+        suppresscc = sob
+        confirm = always
+[core]
+        autocrlf = false
+        whitespace = cr-at-eol
+        editor = vim
+[format]
+        signoff=true
+[alias]
+        graph = log --all --oneline --decorate --graph
+        root = rev-parse --show-toplevel
+[color]
+        ui = auto
+[credential]
+[credential]
+        helper = store
